@@ -304,153 +304,23 @@ except Exception as exc:
 #  CAMERA SOURCE SELECTION
 # ═══════════════════════════════════════════════════════════════════════════════
 
-import msvcrt                    # Windows: flush keyboard buffer before input()
-
-def _flush_stdin():
-    """Discard any buffered keystrokes so input() always waits for fresh input."""
-    while msvcrt.kbhit():
-        msvcrt.getwch()
-
-
-def _try_open(src, backend=None, n_test=15):
-    """Open camera and verify it delivers n_test consecutive stable frames."""
-    try:
-        cap_ = (cv2.VideoCapture(src, backend)
-                if backend is not None
-                else cv2.VideoCapture(src))
-        if not cap_.isOpened():
-            cap_.release()
-            return None
-        cap_.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-        cap_.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
-        ok_count = 0
-        for _ in range(n_test + 15):
-            try:
-                ret, frm = cap_.read()
-            except Exception:
-                cap_.release()
-                return None
-            if ret and frm is not None and frm.size > 0 and frm.shape[0] > 0:
-                ok_count += 1
-                if ok_count >= n_test:
-                    cap_.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-                    cap_.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
-                    return cap_
-            else:
-                ok_count = 0          # reset on any bad frame
-        cap_.release()
-    except Exception:
-        pass
-    return None
-
-
-def _open_laptop_webcam():
-    """Scan indices 0-4 to find the real physical webcam (skips broken virtual cams)."""
-    for idx in range(5):
-        for backend in [cv2.CAP_DSHOW, None]:
-            print(f"[CAM] Scanning index={idx} backend={backend} ...")
-            c = _try_open(idx, backend)
-            if c:
-                print(f"[OK] Laptop webcam confirmed: index={idx}, backend={backend}")
-                return c, idx, backend
-            time.sleep(0.3)
-    return None, None, None
-
-
-# ── Menu — always shown, stdin flushed first ──────────────────────────────────
-_flush_stdin()
-
-print("\n" + "=" * 50)
-print("  CAMERA SOURCE SELECTION")
-print("=" * 50)
-print("1. Phone Camera  (DroidCam / IP Camera)")
-print("2. Laptop Webcam")
-print("=" * 50)
-
-choice = ""
-while choice not in ("1", "2"):
-    choice = input("Select source (1 or 2): ").strip()
-    if choice not in ("1", "2"):
-        print("  Please enter 1 or 2.")
-
-# Store camera params for reconnect logic
-_cam_src    = None
-_cam_backend = None
-cap = None
-
-if choice == "1":
-    # Always ask for URL — DroidCam works on local Wi-Fi without internet
-    url = input("Enter DroidCam URL (e.g., http://192.168.1.5:4747): ").strip()
-    if url:
-        if "4747" in url and not url.endswith("/video") and not url.endswith("/mjpegfeed"):
-            url = url.rstrip("/") + "/video"
-        print(f"[SYSTEM] Connecting to phone camera: {url} ...")
-        cap = _try_open(url)
-        if cap:
-            _cam_src = url
-            print("[OK] Phone camera connected!")
-        else:
-            print("[WARN] Could not connect. Falling back to laptop webcam...")
-
-if cap is None:
-    print("[SYSTEM] Opening laptop webcam...")
-    cap, _cam_src, _cam_backend = _open_laptop_webcam()
-
-if cap is None:
+cap = cv2.VideoCapture(0)
+if not cap.isOpened():
     print("[FATAL ERROR] No camera found. Exiting.")
     sys.exit(1)
 
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+
 print(f"[OK] Camera ready | {int(cap.get(3))}x{int(cap.get(4))}")
 
-# Warm-up flush to stabilize the camera before threading
+# Warm-up flush
 for _ in range(10):
     try:
         cap.read()
     except Exception:
-        pass
-
-import threading
-
-class ThreadedCamera:
-    def __init__(self, cap):
-        self.cap = cap
-        self.ret = False
-        self.frame = None
-        self.running = True
-        self.lock = threading.Lock()
-        
-        # Try to get an initial frame safely
-        try:
-            self.ret, self.frame = self.cap.read()
-        except Exception:
-            pass
-            
-        self.thread = threading.Thread(target=self._update, daemon=True)
-        self.thread.start()
-
-    def _update(self):
-        while self.running:
-            try:
-                ret, frame = self.cap.read()
-                with self.lock:
-                    self.ret = ret
-                    if ret and frame is not None:
-                        self.frame = frame
-            except Exception:
-                pass
-
-    def read(self):
-        with self.lock:
-            if not self.ret or self.frame is None:
-                return False, None
-            return True, self.frame.copy()
-
-    def release(self):
-        self.running = False
-        self.thread.join(timeout=1.0)
-        self.cap.release()
-
-cap = ThreadedCamera(cap)
+        break
 
 
 
