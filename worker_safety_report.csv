@@ -1,0 +1,182 @@
+2026-05-07 23:21:07,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,"Vest detected, but not worn properly"
+2026-05-07 23:21:11,Unknown,2,Unknown Worker,VIOLATION,"Helmet detected, not worn",No Vest detected
+2026-05-07 23:21:11,Unknown,3,Unknown Worker,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:12,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:19,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:21,Unknown,2,Unknown Worker,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:27,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:32,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:40,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:45,Unknown,2,Unknown Worker,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:45,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:51,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:55,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:21:56,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:57,Unknown,1,Unknown Worker,VIOLATION,Helmet worn correctly,Vest detected
+2026-05-07 23:21:57,Unknown,3,Unknown Worker,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:21:57,Unknown,4,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:01,1,2,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:22:02,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:04,Unknown,3,Unknown Worker,VIOLATION,"Helmet detected, not worn",No Vest detected
+2026-05-07 23:22:05,Unknown,2,Unknown Worker,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:22:06,1,1,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:09,Unknown,3,Unknown Worker,VIOLATION,"Helmet detected, not worn",No Vest detected
+2026-05-07 23:22:10,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:11,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:22:11,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:13,Unknown,2,Unknown Worker,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:22:14,Unknown,2,Unknown Worker,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:22:15,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:15,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:17,1,2,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:22:20,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:24,1,2,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:24,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:25,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:30,2,1,Worker_002,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:34,1,2,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:36,2,1,Worker_002,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:41,2,1,Worker_002,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:43,1,2,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:46,2,1,Worker_002,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:50,Unknown,3,Unknown Worker,VIOLATION,"Helmet detected, not worn",No Vest detected
+2026-05-07 23:22:50,1,2,Worker_001,VIOLATION,"Helmet detected, not worn","Vest detected, but not worn properly"
+2026-05-07 23:22:51,2,1,Worker_002,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:22:52,Unknown,4,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:22:56,2,1,Worker_002,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:23:01,2,1,Worker_002,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:23:06,2,1,Worker_002,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:23:08,1,2,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:23:11,2,1,Worker_002,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:35:07,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:35:13,3,1,Worker_003,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:35:18,3,1,Worker_003,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:35:20,Unknown,2,Unknown Worker,VIOLATION,Helmet worn correctly,"Vest detected, but not worn properly"
+2026-05-07 23:35:23,3,1,Worker_003,VIOLATION,No Helmet detected,"Vest detected, but not worn properly"
+2026-05-07 23:35:25,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:35:28,3,1,Worker_003,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:35:31,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:35:33,3,1,Worker_003,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:35:36,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:35:38,3,1,Worker_003,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:35:41,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:35:41,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:35:43,1,1,Worker_001,VIOLATION,No Helmet detected,"Vest detected, but not worn properly"
+2026-05-07 23:35:46,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:35:47,3,3,Worker_003,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:35:48,1,1,Worker_001,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:35:52,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:35:53,1,1,Worker_001,VIOLATION,No Helmet detected,"Vest detected, but not worn properly"
+2026-05-07 23:35:55,3,3,Worker_003,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:35:57,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:35:58,1,1,Worker_001,VIOLATION,No Helmet detected,"Vest detected, but not worn properly"
+2026-05-07 23:39:54,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:39:59,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:05,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:10,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:16,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:40:16,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:21,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:40:22,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:40:26,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:40:31,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:40:34,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:36,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:42,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:47,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:52,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:54,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:54,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:40:58,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:41:03,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:41:13,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:41:13,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:43:02,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:50:48,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:50:53,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:50:53,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:50:58,1,1,Worker_001,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:51:03,1,1,Worker_001,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:51:08,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, not worn properly"
+2026-05-07 23:51:13,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, not worn properly"
+2026-05-07 23:51:16,Unknown,2,Unknown Worker,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:51:18,1,1,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:54:13,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:18,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:54:26,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, not worn properly"
+2026-05-07 23:54:31,1,1,Worker_001,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:31,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:54:31,Unknown,1,Unknown Worker,VIOLATION,Helmet worn correctly,"Vest detected, not worn properly"
+2026-05-07 23:54:36,1,1,Worker_001,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:39,Unknown,2,Unknown Worker,VIOLATION,"Helmet detected, not worn",Vest worn correctly
+2026-05-07 23:54:39,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:41,1,1,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:54:42,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:54:43,Unknown,4,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:54:44,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:54:44,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:54:47,1,2,Worker_001,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:49,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:52,1,1,Worker_001,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:52,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:55,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:57,1,1,Worker_001,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:54:57,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:55:02,1,1,Worker_001,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:55:02,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:55:07,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:55:08,1,1,Worker_001,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:55:09,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:55:12,Unknown,1,Unknown Worker,VIOLATION,Helmet worn correctly,Vest detected
+2026-05-07 23:55:13,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:55:14,1,2,Worker_001,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:55:14,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,Vest detected
+2026-05-07 23:55:15,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:55:17,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:55:19,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:55:19,1,2,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, not worn properly"
+2026-05-07 23:55:19,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:55:20,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:55:20,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:55:20,Unknown,4,Unknown Worker,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:55:22,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:55:25,1,1,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:55:25,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:55:33,1,1,Worker_001,VIOLATION,No Helmet detected,"Vest detected, not worn properly"
+2026-05-07 23:55:34,Unknown,2,Unknown Worker,VIOLATION,Helmet worn correctly,Vest detected
+2026-05-07 23:55:34,Unknown,3,Unknown Worker,VIOLATION,Helmet worn correctly,"Vest detected, not worn properly"
+2026-05-07 23:55:38,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, not worn properly"
+2026-05-07 23:55:44,1,1,Worker_001,VIOLATION,Helmet worn correctly,"Vest detected, not worn properly"
+2026-05-07 23:55:53,Unknown,2,Unknown Worker,VIOLATION,"Helmet detected, not worn","Vest detected, not worn properly"
+2026-05-07 23:55:54,Unknown,3,Unknown Worker,VIOLATION,"Helmet detected, not worn",No Vest detected
+2026-05-07 23:55:58,1,1,Worker_001,VIOLATION,Helmet worn correctly,Vest detected
+2026-05-07 23:56:01,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:56:03,1,1,Worker_001,VIOLATION,Helmet worn correctly,Vest detected
+2026-05-07 23:56:07,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-07 23:56:08,1,1,Worker_001,VIOLATION,Helmet worn correctly,Vest detected
+2026-05-07 23:56:12,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:56:12,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:56:13,1,1,Worker_001,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:56:17,Unknown,2,Unknown Worker,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:56:18,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:56:18,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:56:18,1,1,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:56:23,1,1,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-07 23:56:26,Unknown,2,Unknown Worker,VIOLATION,"Helmet detected, not worn",No Vest detected
+2026-05-07 23:56:29,1,1,Worker_001,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:56:34,1,1,Worker_001,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-07 23:56:37,Unknown,2,Unknown Worker,VIOLATION,"Helmet detected, not worn",No Vest detected
+2026-05-07 23:56:41,1,1,Worker_001,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-08 00:04:26,Unknown,1,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-08 00:04:27,1,2,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-08 00:04:31,3,1,Worker_003,VIOLATION,No Helmet detected,No Vest detected
+2026-05-08 00:04:33,1,2,Worker_001,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-08 00:04:37,3,1,Worker_003,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-08 00:04:39,1,2,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-08 00:04:42,3,1,Worker_003,VIOLATION,Helmet worn correctly,"Vest detected, not worn properly"
+2026-05-08 00:04:42,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,Vest worn correctly
+2026-05-08 00:04:44,1,2,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-08 00:04:47,3,1,Worker_003,VIOLATION,Helmet worn correctly,No Vest detected
+2026-05-08 00:04:49,1,2,Worker_001,VIOLATION,No Helmet detected,No Vest detected
+2026-05-08 00:04:50,Unknown,3,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected
+2026-05-08 00:05:35,Unknown,2,Unknown Worker,VIOLATION,No Helmet detected,No Vest detected

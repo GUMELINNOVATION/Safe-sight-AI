@@ -1,0 +1,61 @@
+# -----------------------
+# Python cache
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# -----------------------
+# Virtual environments
+# -----------------------
+yolo_env/
+venv/
+env/
+
+# -----------------------
+# YOLO training outputs
+# -----------------------
+runs/
+
+# -----------------------
+# Datasets (we don't upload them)
+# -----------------------
+PPE_dataset/
+construction_dataset/
+dataset/
+*.zip
+
+# -----------------------
+# Ignore large videos (optional)
+# -----------------------
+*.mp4
+*.mov
+*.avi
+
+# -----------------------
+# DO NOT IGNORE IMAGES!
+# Test images must be kept.
+# -----------------------
+# (leave jpg/png enabled)
+
+# -----------------------
+# Auto-generated reports
+# -----------------------
+safety_report.csv
+
+# -----------------------
+# Auto-downloaded models (downloaded at runtime, no need to commit)
+# -----------------------
+yolov8n.pt
+
+# -----------------------
+# Temporary test images
+# -----------------------
+test_img.jpg
+
+# -----------------------
+# Debug / scratch files
+# -----------------------
+debug_test.py
+check_classes.py
+main_demo.py
